@@ -10,6 +10,7 @@
 		25787FEA243F8E7B0066701D /* PNConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25787FE6243F8E7B0066701D /* PNConverterTests.m */; };
 		25943E76245B030B008FF836 /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = 25943E73245B030B008FF836 /* Converter.m */; };
 		25943E77245B030B008FF836 /* PhoneNumberConverter.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 25943E74245B030B008FF836 /* PhoneNumberConverter.pdf */; };
+		ADAFCC9B245EF014003B1CBB /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAFCC9A245EF014003B1CBB /* Data.m */; };
 		BD47B5532268ED9F0060BDF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD47B5522268ED9F0060BDF3 /* AppDelegate.m */; };
 		BD47B5552268EDA10060BDF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD47B5542268EDA10060BDF3 /* Assets.xcassets */; };
 		BD47B5582268EDA10060BDF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD47B5562268EDA10060BDF3 /* LaunchScreen.storyboard */; };
@@ -33,6 +34,8 @@
 		25943E73245B030B008FF836 /* Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Converter.m; sourceTree = "<group>"; };
 		25943E74245B030B008FF836 /* PhoneNumberConverter.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PhoneNumberConverter.pdf; sourceTree = "<group>"; };
 		25943E75245B030B008FF836 /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converter.h; sourceTree = "<group>"; };
+		ADAFCC9A245EF014003B1CBB /* Data.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		ADAFCC9C245EF030003B1CBB /* Data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
 		BD47B54E2268ED9F0060BDF3 /* RSSchool_T5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchool_T5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD47B5512268ED9F0060BDF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD47B5522268ED9F0060BDF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,6 +78,8 @@
 				25943E74245B030B008FF836 /* PhoneNumberConverter.pdf */,
 				25943E75245B030B008FF836 /* Converter.h */,
 				25943E73245B030B008FF836 /* Converter.m */,
+				ADAFCC9C245EF030003B1CBB /* Data.h */,
+				ADAFCC9A245EF014003B1CBB /* Data.m */,
 			);
 			path = 1;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 					};
 					BD47B54D2268ED9F0060BDF3 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -222,6 +228,7 @@
 				25943E76245B030B008FF836 /* Converter.m in Sources */,
 				BD47B55B2268EDA10060BDF3 /* main.m in Sources */,
 				BD47B5532268ED9F0060BDF3 /* AppDelegate.m in Sources */,
+				ADAFCC9B245EF014003B1CBB /* Data.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +408,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RSSchool_T5/Info.plist;
@@ -410,6 +418,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rss.task.ios.RSSchool-T4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RSSchool_T5/1/RSSchool_T5-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -418,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RSSchool_T5/Info.plist;
@@ -427,6 +439,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rss.task.ios.RSSchool-T4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RSSchool_T5/1/RSSchool_T5-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
