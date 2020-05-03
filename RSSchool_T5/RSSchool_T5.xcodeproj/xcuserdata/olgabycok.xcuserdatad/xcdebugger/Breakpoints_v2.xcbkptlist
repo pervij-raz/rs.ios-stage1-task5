@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CFC33DF8-879D-4134-8A6B-79E8676B2DA6"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5FB2081-1C81-4E9A-999F-F1CBEF2AE712"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RSSchool_T5Tests/PNConverterTests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "428"
+            endingLineNumber = "428"
+            landmarkName = "-testN0"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B5FB2081-1C81-4E9A-999F-F1CBEF2AE712 - 56316aa8d626d3be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PNConverterTests testN0]"
+                  moduleName = "RSSchool_T5Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/olgabycok/rs.ios-stage1-task5/RSSchool_T5/RSSchool_T5Tests/PNConverterTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "428"
+                  endingLineNumber = "428"
+                  offsetFromSymbolStart = "195">
+               </Location>
+               <Location
+                  uuid = "B5FB2081-1C81-4E9A-999F-F1CBEF2AE712 - 56316aa8d626d3be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PNConverterTests testN0]"
+                  moduleName = "RSSchool_T5Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/olgabycok/rs.ios-stage1-task5/RSSchool_T5/RSSchool_T5Tests/PNConverterTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "428"
+                  endingLineNumber = "428"
+                  offsetFromSymbolStart = "645">
+               </Location>
+               <Location
+                  uuid = "B5FB2081-1C81-4E9A-999F-F1CBEF2AE712 - 56316aa8d626d3be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PNConverterTests testN0]"
+                  moduleName = "RSSchool_T5Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/olgabycok/rs.ios-stage1-task5/RSSchool_T5/RSSchool_T5Tests/PNConverterTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "428"
+                  endingLineNumber = "428"
+                  offsetFromSymbolStart = "1084">
+               </Location>
+               <Location
+                  uuid = "B5FB2081-1C81-4E9A-999F-F1CBEF2AE712 - 56316aa8d626d3be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PNConverterTests testN0]"
+                  moduleName = "RSSchool_T5Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/olgabycok/rs.ios-stage1-task5/RSSchool_T5/RSSchool_T5Tests/PNConverterTests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "428"
+                  endingLineNumber = "428"
+                  offsetFromSymbolStart = "1193">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
