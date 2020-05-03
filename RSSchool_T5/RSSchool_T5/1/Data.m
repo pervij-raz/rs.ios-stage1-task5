@@ -12,7 +12,7 @@
 @implementation Data
 
 - (id) initWithLength: (int)length code: (int)code andCountry: (NSString*)country {
-    if (self) {
+    if (self = [super init]) {
         self.length = length;
         self.code = code;
         self.country = country;
